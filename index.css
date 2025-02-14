@@ -1,7 +1,7 @@
 /* Basic styling for the body */
 body {
     font-family: 'Space Grotesk', sans-serif;
-    background-color: #E2D6C5;
+    background-color: #e3d8c8;
     color: #333;
     margin: 0;
     padding: 0;
@@ -40,10 +40,6 @@ main {
     min-width: 20vw;
     max-width: 30vw;
     margin-right: 5rem;
-}
-
-.content {
-    /* width: 80%; */
 }
 
 .content-email {
@@ -114,6 +110,7 @@ main {
 
 
     .content-email {
+        font-weight: 300;
         text-decoration: none;
         color: black;
         width: 100%;
