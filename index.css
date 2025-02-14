@@ -1,0 +1,62 @@
+/* Basic styling for the body */
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #E2D6C5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header */
+header {
+    padding: 2rem;
+}
+
+/* Styling for the main content */
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-left {
+    min-width: 20vw;
+    max-width: 30vw;
+    margin-right: 5vw;
+}
+.content {
+    width: 80%;
+}
+.content-email {
+    text-decoration: none;
+    color: black;
+    width: 80%;
+}
+.container-right video {
+    min-width: 60vw;
+    width: 70vw;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 36px;
+    padding-bottom: 10%;
+}
+.content-title {
+    font-weight: bold;
+    font-size: 1rem;
+    border-top: solid 1px black;
+    max-width: 40%;
+    padding-top: 1.5rem;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
